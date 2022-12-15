@@ -4,7 +4,7 @@ import "../styles/Searchbar.css";
 function Searchbar() {
   return (
     <div className="navbar">
-      <input type="text" className="border" placeholder="Rechercher sur Netfloux... "></input>
+      <input type="text" className="border" placeholder="Rechercher sur Netfloux..."></input>
     </div>
   );
 }
