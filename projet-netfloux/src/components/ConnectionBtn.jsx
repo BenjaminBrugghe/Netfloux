@@ -3,10 +3,10 @@ import "../styles/ConnectionBtn.css";
 import { useState } from "react";
 
 const ConnectionButton = (props) => {
-    const [log, checklog] = useState(false)
+    const [log, setLog] = useState(false)
 
     function swap(){
-        checklog(!log);
+        setLog(!log);
     }
   return (
     <>
