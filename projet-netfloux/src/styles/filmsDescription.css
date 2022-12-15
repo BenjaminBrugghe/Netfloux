@@ -1,12 +1,24 @@
 .filmDescriptionContainer {
-  width: 40%;
+  height: 70vh;
+  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   margin: 0 1%;
+}
 
-  background-color: green;
+.filmImageContainer {
+  height: 100%;
+  width: 40%;
+}
+
+.filmImage {
+  height: 100%;
+  border-radius: 30px;
+}
+
+.filmInformations {
+  height: 100%;
 }
 
 .filmName {
@@ -16,4 +28,25 @@
 .filmInfos {
   margin-bottom: 5%;
   font-size: 1.3em;
+}
+
+.filmDescription {
+  margin-top: 20%;
+  font-size: 1.2em;
+}
+
+.filmButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.headerBtn {
+  background-color: gray;
+  height: 5vh;
+  width: 6vw;
+  border-radius: 10px;
+  margin: 10vh 1vw;
+  color: white;
 }
