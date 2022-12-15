@@ -1,0 +1,17 @@
+.rows {
+  height: 200px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  overflow-y: hidden;
+}
+
+.row {
+  height: 200px;
+  width: 200px;
+  margin-right: 1%;
+}
