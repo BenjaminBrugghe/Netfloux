@@ -1,0 +1,19 @@
+.filmDescriptionContainer {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 1%;
+
+  background-color: green;
+}
+
+.filmName {
+  font-size: 2em;
+}
+
+.filmInfos {
+  margin-bottom: 5%;
+  font-size: 1.3em;
+}
