@@ -2,15 +2,15 @@ import React from 'react';
 import '../styles/HeaderBtn.css'
 
 /**
- * 
- * @param {function} onClick L'action quand on clique
- * @param {string} text le texte à afficher dans le bouton
+ * @param {string} props.type le nom de la classe
+ * @param {function} props.click l'action effectuée quand on clique
+ * @param {string} props.text le texte à afficher dans le bouton
  * @returns un bouton
  */
-const HeaderBtn = ({ onClick, text }) => {
+const HeaderBtn = (props) => {
     return (
         <>
-            <button className='headerBtn' onClick={onClick}>{text}</button>
+            <button className={props.type || "headerBtn"} onClick={props.click}>{props.text}</button>
         </>
     );
 };
