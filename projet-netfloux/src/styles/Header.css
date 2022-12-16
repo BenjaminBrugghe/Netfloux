@@ -27,8 +27,9 @@
 }
 
 .headerBtn {
-  background: none;
-  color: #000000;
-  font-size: 35px;
-  width: 100vh;
+  cursor: pointer;
+  color: black;
+  font-size: 1.5em;
+  background-color: transparent;
+  display: flex;
 }
