@@ -1,0 +1,19 @@
+.path {
+  background-color: rgb(200, 200, 200);
+  display: flex;
+  flex-direction: row;
+  height: 10%;
+  width: 100%;
+}
+
+.pathTitleBold {
+  margin-left: 1%;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.pathTitle {
+  margin-left: 1%;
+  font-size: 1.5em;
+}
