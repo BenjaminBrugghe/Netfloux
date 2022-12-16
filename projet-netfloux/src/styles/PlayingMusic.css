@@ -1,0 +1,43 @@
+.playingMusic{
+    display: flex;
+    flex-direction: column;
+    background-color: #BBC0C8;
+    height: fit-content;
+    width: fit-content;
+}
+
+#chargingBar{
+    background-color: #656565;
+    height: 20px;
+    border-radius: 0px 10px 10px 0px;
+    width: 50%;
+
+}
+
+#progressBar{
+    background-color: #A8A8A8;
+    height: 20px;
+    
+}
+
+.infos{
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+.Buttons{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    align-items: center;
+}
+
+#stopBtn{
+    padding-right: 100px;
+}
+
+#playBtn{
+    padding-left: 10px;
+    padding-right: 10px;
+}
