@@ -3,6 +3,7 @@ import '../styles/filmsDescription.css'
 import FilmPath from './FilmPath';
 import HeaderBtn from "./HeaderBtn"
 import { videoList } from '../datas/videoList';
+import PubContainer from './PubContainer';
 
 const FilmsDescription = ({ film }) => {
     return (
@@ -22,6 +23,7 @@ const FilmsDescription = ({ film }) => {
                         <HeaderBtn type='descriptionBtnNotes descriptionBtn' text="Notes" />
                     </div>
                 </div>
+                <PubContainer />
             </div>
         </>
     );
