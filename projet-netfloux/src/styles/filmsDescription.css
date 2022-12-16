@@ -1,8 +1,8 @@
 .filmDescriptionContainer {
-  height: 80vh;
-  width: 75%;
-  display: flex;
   background-color: rgb(200, 200, 200);
+  height: 75vh;
+  width: 98.9vw;
+  display: flex;
 }
 
 .filmImageContainer {
@@ -38,9 +38,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 20vh;
 }
 
 .descriptionBtn {
+  cursor: pointer;
   background-color: rgb(168, 168, 168);
   height: 5vh;
   width: 6vw;

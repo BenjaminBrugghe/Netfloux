@@ -1,7 +1,7 @@
 .header {
   display: flex;
   height: 100px;
-  width: 100vw;
+  width: 98.9vw;
   justify-content: space-between;
   align-items: center;
   background-image: url("../datas/images/HeaderNetfloux.png");
