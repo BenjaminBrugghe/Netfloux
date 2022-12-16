@@ -9,14 +9,14 @@ import Searchbar from "../components/Searchbar";
 const Header = () => {
   return (
     <div className="header">
-      <img class="logo" src={logo} alt="Logo Netfloux" />
-      <div class="Categories">
-        <HeaderBtn onClick={null} text="Films" />
-        <HeaderBtn onClick={null} text="Séries" />
-        <HeaderBtn onClick={null} text="Tendances" />
-        <HeaderBtn onClick={null} text="Jeux" />
-        <HeaderBtn onClick={null} text="Youtube" />
-        <HeaderBtn onClick={null} text="Musique" />
+      <img className="logo" src={logo} alt="Logo Netfloux" />
+      <div className="Categories">
+        <HeaderBtn text="Films" />
+        <HeaderBtn text="Séries" />
+        <HeaderBtn text="Tendances" />
+        <HeaderBtn text="Jeux" />
+        <HeaderBtn text="Youtube" />
+        <HeaderBtn text="Musique" />
       </div>
       <Searchbar />
       <ConnectionButton />
