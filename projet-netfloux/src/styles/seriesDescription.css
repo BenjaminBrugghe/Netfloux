@@ -1,0 +1,16 @@
+.seriesButtons {
+  text-align: left;
+  width: 98.9vw;
+  background-color: rgb(200, 200, 200);
+}
+
+.seriesBtn {
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  height: 6vh;
+  width: 10vw;
+  font-size: 1.6em;
+  margin-left: 2%;
+  margin-bottom: 1%;
+}

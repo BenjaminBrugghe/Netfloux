@@ -1,0 +1,22 @@
+.seriesButtons {
+}
+
+.seasonsUL,
+.episodesUL {
+  position: absolute;
+  list-style-type: none;
+  font-size: 1.5em;
+  margin-top: -1%;
+  margin-left: 1.5%;
+  width: 8vw;
+
+  background-color: rgb(233, 233, 233);
+}
+
+.episodesUL {
+  left: 12%;
+}
+
+.seasonsLI {
+  cursor: pointer;
+}

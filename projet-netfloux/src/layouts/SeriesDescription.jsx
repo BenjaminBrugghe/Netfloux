@@ -1,14 +1,17 @@
 import React from 'react';
 import '../styles/filmsDescription.css'
-import FilmPath from './FilmPath';
-import HeaderBtn from "./HeaderBtn"
+import '../styles/seriesDescription.css'
+import FilmPath from '../components/FilmPath';
+import HeaderBtn from "../components/HeaderBtn"
 import { videoList } from '../datas/videoList';
-import PubContainer from './PubContainer';
+import PubContainer from '../components/PubContainer';
+import SeriesButtons from '../components/SeriesButtons';
 
-const FilmsDescription = ({ film }) => {
+const SeriesDescription = ({ film }) => {
     return (
         <>
             <FilmPath film={videoList[0]} />
+            <SeriesButtons />
             <div className='filmDescriptionContainer'>
                 <div className='filmImageContainer'>
                     <img className='filmImage' src={film.image} alt="" />
@@ -29,4 +32,4 @@ const FilmsDescription = ({ film }) => {
     );
 };
 
-export default FilmsDescription;
+export default SeriesDescription;
