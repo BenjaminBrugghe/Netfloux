@@ -2,7 +2,11 @@ import React from "react";
 import "../styles/ConnectionBtn.css";
 import { useState } from "react";
 
-const ConnectionButton = (props) => {
+/**
+ * Boutton de connexion et de déconnexion de son compte Netfloux
+ * @returns Un bouton de connection
+ */
+const ConnectionButton = () => {
     const [log, setLog] = useState(false)
 
     function swap(){
@@ -10,7 +14,7 @@ const ConnectionButton = (props) => {
     }
   return (
     <>
-      <button onClick={swap}> {log ? "Connecté" : "Se connecter"}</button>
+      <button className="Connection" onClick={swap}> {log ? "Connecté" : "Se connecter"}</button>
     </>
   );
 };

@@ -1,11 +1,8 @@
 import "./App.css";
-import Video from "./components/Video";
 
 function App() {
   return <div className="App">
-    {/* Bienvenue sur la branche dev */}
-    <Video/>
+   Bienvenue sur la branche dev 
   </div>;
-}
 
 export default App;
