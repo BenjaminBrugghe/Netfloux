@@ -1,0 +1,11 @@
+.layout{
+    display: flex;
+    background-color: #C8C8C8;
+    width: 100vw;
+    height: 90vh;
+    padding-top: 20px;
+}
+
+#playingCard{
+    padding-top: 200px;
+}
