@@ -1,8 +1,8 @@
 import "./App.css";
-import Header from "./layouts/Header";
 
 function App() {
-  return <Header />
-}
+  return <div className="App">
+   Bienvenue sur la branche dev 
+  </div>;
 
 export default App;
