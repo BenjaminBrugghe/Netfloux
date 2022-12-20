@@ -1,0 +1,33 @@
+.rows {
+  height: 230px;
+  width: 95vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  overflow-y: hidden;
+  margin-left: 2%;
+}
+
+.row {
+  cursor: pointer;
+  height: 230px;
+  width: 150px;
+  margin-right: 7%;
+  border-radius: 20px;
+  margin-bottom: 0.5%;
+  background-size: 100%;
+}
+
+::-webkit-scrollbar {
+  background-color: rgb(101, 101, 101);
+  border-radius: 9px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(42, 42, 42);
+  border-radius: 9px;
+}

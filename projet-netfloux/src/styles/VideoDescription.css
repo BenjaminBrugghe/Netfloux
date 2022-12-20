@@ -1,0 +1,38 @@
+.videoDescriptionContainer {
+  border: black solid 1px;
+  width: 80%;
+  margin: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+
+  text-align: justify;
+}
+
+.flex-container > div {
+  padding: 20px;
+  width: 100%;
+}
+
+.pub {
+  background-color: transparent;
+}
+
+.description {
+  background-color: #a8a8a8;
+}
+
+.flex-container .reseaux {
+  background-color: #a8a8a8;
+}
+
+.reseau {
+  display: flex;
+  align-items: center;
+}
+
+p {
+  margin-left: 10px;
+}

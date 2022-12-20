@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  height: 100px;
+  width: 98.9vw;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("../datas/images/HeaderNetfloux.png");
+  background-repeat: no-repeat;
+}
+
+.border {
+  width: 18vw;
+  height: 41px;
+  font-size: 20px;
+  padding-right: 15px;
+}
+
+.logo {
+  height: 50px;
+  width: 16vw;
+}
+
+.Categories {
+  display: flex;
+  justify-content: space-around;
+  width: 51vw;
+}
+
+.headerBtn {
+  cursor: pointer;
+  color: black;
+  font-size: 1.5em;
+  background-color: transparent;
+  display: flex;
+}
